@@ -21,7 +21,8 @@ test.beforeEach(async ({ page }) => {
 });
 ```
 
-> **Note** `havoc` must be used only while troubleshooting or trying to identify flaky tests. It must not be used in your CI/CD pipeline as it will cause your tests to run a lot longer than needed.
+> [!WARNING]
+> `havoc` must be used only while troubleshooting or trying to identify flaky tests. It must not be used in your CI/CD pipeline as it will cause your tests to run a lot longer than needed.
 
 ## How does it work?
 
